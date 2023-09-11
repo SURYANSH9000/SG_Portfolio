@@ -6,6 +6,27 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+      <style>
+        .custom-btn {
+            position: relative;
+            overflow: hidden;
+            width: 56px; /* Adjust the width and height as needed */
+            height: 56px; /* Adjust the width and height as needed */
+            border-radius: 50%;
+            padding: 0;
+        }
+
+        .btn-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%; /* Use 100% to cover the entire button */
+            height: 100%; /* Use 100% to cover the entire button */
+            background: url('/SG_Portfolio/assets/img/link.png') center center no-repeat;
+            background-size: contain; /* Adjust this property if needed */
+        }
+    </style>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -351,9 +372,11 @@ database, and integrated the Foursquare API for location-based data retrieval.</
                 <div class="card-action">
 <a aria-label="Website label" href="https://suryansh9000.github.io/BusinessDirectory/" target="_blank"
    data-position="top" data-tooltip="View Source" data-position="top" data-tooltip="View Source" 
-   class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
-   <img src="/SG_Portfolio/assets/img/link.png" alt="Link Image" />
+   class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped custom-btn">
+   <!-- Empty span for CSS-based background image -->
+   <span class="btn-image"></span>
 </a>
+
                   <a aria-label="Visit the GitHub repo for  project" href="https://github.com/SURYANSH9000/BusinessDirectory"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
@@ -382,11 +405,13 @@ database, and integrated the Foursquare API for location-based data retrieval.</
                       design and error handling.</li>
                 </ul>
                 <div class="card-action">
-<a aria-label="Website label" href="https://suryansh9000.github.io/RecipeGenerator/" target="_blank"
+<a aria-label="Website label" href="https://suryansh9000.github.io/BusinessDirectory/" target="_blank"
    data-position="top" data-tooltip="View Source" data-position="top" data-tooltip="View Source" 
-   class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
-   <img src="/SG_Portfolio/assets/img/link.png" alt="Link Image" />
+   class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped custom-btn">
+   <!-- Empty span for CSS-based background image -->
+   <span class="btn-image"></span>
 </a>
+
 
                   <a aria-label="Visit the GitHub repo for  project" href="https://github.com/SURYANSH9000/RecipeGenerator"
                     target="_blank" data-position="top" data-tooltip="View Source"
